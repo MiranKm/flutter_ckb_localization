@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'dart:ui' as ui;
 import 'package:flutter/widgets.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,6 @@ class _CkbMaterialLocalizationsDelegate extends LocalizationsDelegate<WidgetsLoc
 
   @override
   Future<WidgetsLocalizations> load(Locale locale) async {
-    
     return SynchronousFuture<WidgetsLocalizations>(
       CkbWidgetLocalizations(),
     );
@@ -26,5 +25,5 @@ class CkbWidgetLocalizations extends WidgetsLocalizations {
   static const LocalizationsDelegate<WidgetsLocalizations> delegate = _CkbMaterialLocalizationsDelegate();
 
   @override
-  TextDirection get textDirection => TextDirection.rtl;
+  TextDirection get textDirection => ui.TextDirection.rtl;
 }
