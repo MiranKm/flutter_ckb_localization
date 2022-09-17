@@ -30,6 +30,7 @@ class _CkbCupertinoLocalizationsDelegate
     );
     return SynchronousFuture<CupertinoLocalizations>(
       CkbCupertinoLocalizations(
+        localeName: "ckb",
         fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
         compactDateFormat: intl.DateFormat('EEE, MMM d', localeName),
@@ -39,6 +40,7 @@ class _CkbCupertinoLocalizationsDelegate
         yearMonthFormat: intl.DateFormat('MMMM y', localeName),
         decimalFormat: intl.NumberFormat('#,##0.###', 'ar'),
         twoDigitZeroPaddedFormat: intl.NumberFormat('00', 'ar'),
+
 
         /*   fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
@@ -73,7 +75,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required intl.NumberFormat decimalFormat,
     required intl.NumberFormat twoDigitZeroPaddedFormat,
   }) : super(
-          localeName: localeName,
+          localeName: "ckb",
           doubleDigitMinuteFormat: intl.DateFormat("#"),
           dayFormat: intl.DateFormat("#"),
           singleDigitHourFormat: intl.DateFormat("#"),
