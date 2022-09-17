@@ -1,5 +1,5 @@
 library flutter_ckb_localization;
 
-export 'package:flutter_ckb_localization/ckb_material_localization_delegate.dart';
 export 'package:flutter_ckb_localization/ckb_cupertino_localization_delegate.dart';
+export 'package:flutter_ckb_localization/ckb_material_localization_delegate.dart';
 export 'package:flutter_ckb_localization/ckb_widget_localization_delegate.dart';
