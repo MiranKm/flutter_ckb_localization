@@ -340,6 +340,12 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get viewLicensesButtonLabel => 'پیشاندانی مۆڵەتەکان';
+
+  @override
+  String get firstPageTooltip => "تێكستی پەیجی یەكەم";
+
+  @override
+  String get lastPageTooltip => "تێكستی پەیجی كۆتای";
 }
 
 const ckbDateSymbols = {
