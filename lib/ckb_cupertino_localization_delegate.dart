@@ -9,8 +9,7 @@ import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 
-class _CkbCupertinoLocalizationsDelegate
-    extends LocalizationsDelegate<CupertinoLocalizations> {
+class _CkbCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
   const _CkbCupertinoLocalizationsDelegate();
 
   @override
@@ -41,7 +40,6 @@ class _CkbCupertinoLocalizationsDelegate
         decimalFormat: intl.NumberFormat('#,##0.###', 'ar'),
         twoDigitZeroPaddedFormat: intl.NumberFormat('00', 'ar'),
 
-
         /*   fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
         compactDateFormat: intl.DateFormat('EEE, MMM d', localeName),
@@ -63,7 +61,7 @@ class _CkbCupertinoLocalizationsDelegate
 }
 
 class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
-   CkbCupertinoLocalizations({
+  CkbCupertinoLocalizations({
     String localeName = 'ckb',
     required intl.DateFormat fullYearFormat,
     required intl.DateFormat shortDateFormat,
@@ -77,10 +75,10 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   }) : super(
           localeName: "ckb",
           doubleDigitMinuteFormat: intl.DateFormat("#", localeName),
-          dayFormat: intl.DateFormat("#",localeName),
-          singleDigitHourFormat: intl.DateFormat("#",localeName),
-          singleDigitMinuteFormat: intl.DateFormat("#",localeName),
-          singleDigitSecondFormat: intl.DateFormat("#",localeName),
+          dayFormat: intl.DateFormat("#", localeName),
+          singleDigitHourFormat: intl.DateFormat("#", localeName),
+          singleDigitMinuteFormat: intl.DateFormat("#", localeName),
+          singleDigitSecondFormat: intl.DateFormat("#", localeName),
           fullYearFormat: fullYearFormat,
           mediumDateFormat: mediumDateFormat,
           decimalFormat: decimalFormat,
@@ -145,8 +143,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String get dateRangePickerHelpText => 'دەست نیشانکردنی مەودا';
 
   @override
-  String get dateRangeStartDateSemanticLabelRaw =>
-      'بەرواری دەستپێکردن \$fullDate';
+  String get dateRangeStartDateSemanticLabelRaw => 'بەرواری دەستپێکردن \$fullDate';
 
   @override
   String get dateRangeStartLabel => 'بەرواری دەستپێکردن';
@@ -221,8 +218,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String get pageRowsInfoTitleRaw => '\$firstRow–\$lastRow لە \$rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      '\$firstRow–\$lastRow تا \$rowCount';
+  String get pageRowsInfoTitleApproximateRaw => '\$firstRow–\$lastRow تا \$rowCount';
 
   @override
   String get pasteButtonLabel => 'پەیست';
@@ -255,8 +251,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String get remainingTextFieldCharacterCountOne => '١ پیت ماوە';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      '\$remainingCount پیتەکان ماون';
+  String get remainingTextFieldCharacterCountOther => '\$remainingCount پیتەکان ماون';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => "";
@@ -285,114 +280,90 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   @override
   String get rowsPerPageTitle => 'ڕیزەکان بۆ هەر پەڕەیەک:';
 
-  @override
   String get saveButtonLabel => 'هەڵگرتن';
 
-  @override
   ScriptCategory get scriptCategory => ScriptCategory.tall;
 
-  @override
   String get searchFieldLabel => 'گەڕان';
 
-  @override
   String get selectAllButtonLabel => 'هەموو هەڵبژێرە';
 
-  @override
   String get selectYearSemanticsLabel => 'ساڵ هەڵبژێرە';
 
-  @override
   String? get selectedRowCountTitleFew => "";
 
-  @override
   String? get selectedRowCountTitleMany => "";
 
-  @override
   String get selectedRowCountTitleOne => '١ دانە هەڵبژێردرا';
 
-  @override
   String get selectedRowCountTitleOther => '\$selectedRowCount هەڵبژێردراو';
 
-  @override
   String? get selectedRowCountTitleTwo => "";
 
-  @override
   String get selectedRowCountTitleZero => 'هیچ هەڵنەبژێراوە';
 
-  @override
   String get showAccountsLabel => 'پیشاندانی ئەژمێرەکان';
 
-  @override
   String get showMenuTooltip => 'پیشاندانی پێڕست';
 
-  @override
   String get signedInLabel => 'چوونە ژوورەوە';
 
-  @override
   String get tabLabelRaw => 'خشتەبەندی \$tabIndex لە \$tabCount';
 
-  @override
   TimeOfDayFormat get timeOfDayFormatRaw => TimeOfDayFormat.h_colon_mm_space_a;
 
-  @override
   String get timePickerDialHelpText => 'کات هەڵبژێرە';
 
-  @override
   String get timePickerHourLabel => 'کاتژمێر';
 
-  @override
   String get timePickerHourModeAnnouncement => 'کاتژمێر هەڵبژێرە';
 
-  @override
   String get timePickerInputHelpText => 'کات بنووسە';
 
-  @override
   String get timePickerMinuteLabel => 'خولەک';
 
-  @override
   String get timePickerMinuteModeAnnouncement => 'خولەک هەڵبژێرە';
 
-  @override
   String get unspecifiedDate => 'بەروار';
 
-  @override
   String get unspecifiedDateRange => 'مەودای بەروار';
 
-  @override
   String get viewLicensesButtonLabel => 'پیشاندانی مۆڵەتەکان';
 
-  @override
-  String get firstPageTooltip => "تێكستی پەیجی یەكەم";
+  String get firstPageTooltip => "تایبەتمەندی پەیجی یەکەم";
+
+  String get lastPageTooltip => "تایبەتمەندی پەیجی کۆتایی";
 
   @override
-  String get lastPageTooltip => "تێكستی پەیجی كۆتای";
+  String get datePickerDateOrderString => "تاریخی ڕیز";
 
   @override
-  String get datePickerDateOrderString => "";
+  String get datePickerDateTimeOrderString => "ڕووداوی تایبەتی";
 
   @override
-  String get datePickerDateTimeOrderString => "";
+  String? get datePickerHourSemanticsLabelOther => "کاتژمێری تایبەتی";
 
   @override
-  String? get datePickerHourSemanticsLabelOther => "";
+  String? get datePickerMinuteSemanticsLabelOther => "خولەکی تایبەتی";
 
   @override
-  String? get datePickerMinuteSemanticsLabelOther => "";
+  String get searchTextFieldPlaceholderLabel => "بگەڕێ بۆ";
 
   @override
-  String get searchTextFieldPlaceholderLabel => "";
+  String get tabSemanticsLabelRaw => "پەیجی";
 
   @override
-  String get tabSemanticsLabelRaw => "";
+  String? get timerPickerHourLabelOther => "کاتژمێری تایبەتی";
 
   @override
-  String? get timerPickerHourLabelOther => "";
+  String? get timerPickerMinuteLabelOther => "خولەکی تایبەتی";
 
   @override
-  String? get timerPickerMinuteLabelOther => "";
+  String? get timerPickerSecondLabelOther => "چرکە تایبەتی";
 
   @override
-  String? get timerPickerSecondLabelOther => "";
+  String get todayLabel => "ئەمڕوو";
 
   @override
-  String get todayLabel => "";
+  String get noSpellCheckReplacementsLabel => "هیچ پارگەیەكی چاکناوی نیشاندەر نیشانناکرێت";
 }

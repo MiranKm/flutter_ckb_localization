@@ -1,10 +1,11 @@
 import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart' as intl;
-import 'package:intl/date_symbols.dart' as intl;
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
+import 'package:intl/date_symbols.dart' as intl;
+import 'package:intl/intl.dart' as intl;
 
 class _CkbMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   const _CkbMaterialLocalizationsDelegate();
@@ -69,7 +70,8 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
             yearMonthFormat: yearMonthFormat,
             decimalFormat: decimalFormat,
             twoDigitZeroPaddedFormat: twoDigitZeroPaddedFormat);
-  static const LocalizationsDelegate<MaterialLocalizations> delegate = _CkbMaterialLocalizationsDelegate();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate =
+      _CkbMaterialLocalizationsDelegate();
 
   @override
   String get aboutListTileTitleRaw => 'دەربارەی \$applicationName';
@@ -346,6 +348,162 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get lastPageTooltip => "تێكستی پەیجی كۆتای";
+
+  @override
+  String get bottomSheetLabel => "پانیشانی خوارەوپانی";
+
+  @override
+  String get currentDateLabel => "ڕووداوی ئەمڕۆ";
+
+  @override
+  String get keyboardKeyAlt => "فراخواز";
+
+  @override
+  String get keyboardKeyAltGraph => "گرافیکی فراخواز";
+
+  @override
+  String get keyboardKeyBackspace => "پووشەی گەڕانەوە";
+
+  @override
+  String get keyboardKeyCapsLock => "قفلی چاپی بزنە";
+
+  @override
+  String get keyboardKeyChannelDown => "کاناڵی خوارەوپانی بیگەرە";
+
+  @override
+  String get keyboardKeyChannelUp => "کاناڵی سەرەوپانی بیگەرە";
+
+  @override
+  String get keyboardKeyControl => "کۆنترۆڵ";
+
+  @override
+  String get keyboardKeyDelete => "سڕینەوە";
+
+  @override
+  String get keyboardKeyEject => "بەرزکردنەوە";
+
+  @override
+  String get keyboardKeyEnd => "کۆتایی";
+
+  @override
+  String get keyboardKeyEscape => "بچۆ";
+
+  @override
+  String get keyboardKeyFn => "فانکشن";
+
+  @override
+  String get keyboardKeyHome => "سەرەوە";
+
+  @override
+  String get keyboardKeyInsert => "خستنە نیشانەوە";
+
+  @override
+  String get keyboardKeyMeta => "میتا";
+
+  @override
+  String get keyboardKeyMetaMacOs => "میتا";
+
+  @override
+  String get keyboardKeyMetaWindows => "میتا";
+
+  @override
+  String get keyboardKeyNumLock => "قفلی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpad0 => "ژمارەکان ٠";
+
+  @override
+  String get keyboardKeyNumpad1 => "ژمارەکان ١";
+
+  @override
+  String get keyboardKeyNumpad2 => "ژمارەکان ٢";
+
+  @override
+  String get keyboardKeyNumpad3 => "ژمارەکان ٣";
+
+  @override
+  String get keyboardKeyNumpad4 => "ژمارەکان ٤";
+
+  @override
+  String get keyboardKeyNumpad5 => "ژمارەکان ٥";
+
+  @override
+  String get keyboardKeyNumpad6 => "ژمارەکان ٦";
+
+  @override
+  String get keyboardKeyNumpad7 => "ژمارەکان ٧";
+
+  @override
+  String get keyboardKeyNumpad8 => "ژمارەکان ٨";
+
+  @override
+  String get keyboardKeyNumpad9 => "ژمارەکان ٩";
+
+  @override
+  String get keyboardKeyNumpadAdd => "زیادکردنەوەی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadComma => "ویرگولی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadDecimal => "نقطەی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadDivide => "هاتنە";
+
+  @override
+  String get keyboardKeyNumpadEnter => "Enter ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadEqual => "هاوشێوەی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadMultiply => "گونجاندنەوەی ژمارەکان";
+
+  @override
+  String get keyboardKeyNumpadParenLeft => "پەرانی ژمارەکانی چپ";
+
+  @override
+  String get keyboardKeyNumpadParenRight => "پەرانی ژمارەکانی راست";
+
+  @override
+  String get keyboardKeyNumpadSubtract => "کەمکردنەوەی ژمارەکان";
+
+  @override
+  String get keyboardKeyPageDown => "پەڕەی خوارەوپانی بگەرە";
+
+  @override
+  String get keyboardKeyPageUp => "پەڕەی سەرەوپانی بگەرە";
+
+  @override
+  String get keyboardKeyPower => "کاتژمێر";
+
+  @override
+  String get keyboardKeyPowerOff => "کاتژمێرهێنان";
+
+  @override
+  String get keyboardKeyPrintScreen => "پرینت سکرین";
+
+  @override
+  String get keyboardKeyScrollLock => "قفلی پیشاندانی پەڕە";
+
+  @override
+  String get keyboardKeySelect => "هەڵبژاردنەوە";
+
+  @override
+  String get keyboardKeyShift => "شیفت";
+
+  @override
+  String get keyboardKeySpace => "شوێن";
+
+  @override
+  String get menuBarMenuLabel => "لیستی مێنیو";
+
+  @override
+  String get scrimLabel => "پانیشانی پوشە";
+
+  @override
+  String get scrimOnTapHintRaw => "پانیشانی پوشە لە کرتەکانی تاپ کردن";
 }
 
 const ckbDateSymbols = {
@@ -411,7 +569,15 @@ const ckbDateSymbols = {
     'کانونی یەکەم',
   ],
   'WEEKDAYS': ['یەکشەممە', 'دووشەممە', 'سێشەممە', 'چوارشەممە', 'پێنجشەممە', 'هەینی', 'شەممە'],
-  'STANDALONEWEEKDAYS': ['یەکشەممە', 'دووشەممە', 'سێشەممە', 'چوارشەممە', 'پێنجشەممە', 'هەینی', 'شەممە'],
+  'STANDALONEWEEKDAYS': [
+    'یەکشەممە',
+    'دووشەممە',
+    'سێشەممە',
+    'چوارشەممە',
+    'پێنجشەممە',
+    'هەینی',
+    'شەممە'
+  ],
   'SHORTWEEKDAYS': ['یەکشەم', 'دووشەم', 'سێشەم', 'چوارشەم', 'پێنجشەم', 'هەینی', 'شەممە'],
   'STANDALONESHORTWEEKDAYS': ['یەکشەم', 'دووشەم', 'سێشەم', 'چوارشەم', 'پێنجشەم', 'هەینی', 'شەممە'],
   'NARROWWEEKDAYS': ['ی', 'د', 'س', 'چ', 'پ', 'ه', 'ش'],
