@@ -4,7 +4,7 @@ version: 0.0.7
 homepage: https://github.com/mustafa96m/flutter_ckb_localization
 
 environment:
-  sdk: '>=2.18.2 <3.1.0'
+  sdk: '>=2.18.2 <4.0.0'
 
 dependencies:
   flutter:
