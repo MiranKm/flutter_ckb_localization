@@ -9,7 +9,9 @@ class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<WidgetsLoca
   const _KuMaterialLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode == 'ku';
+  bool isSupported(Locale locale) {
+    return locale.languageCode == 'ku';
+  }
 
   @override
   Future<WidgetsLocalizations> load(Locale locale) async {

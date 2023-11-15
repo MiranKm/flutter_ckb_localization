@@ -17,6 +17,8 @@ class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLoc
   Future<MaterialLocalizations> load(Locale locale) async {
     const String localeName = 'ku';
 
+    print('localeName $localeName name ${intl.DateSymbols.deserializeFromMap(kuDateSymbols).NAME}');
+
     date_symbol_data_custom.initializeDateFormattingCustom(
       locale: localeName,
       patterns: kuLocaleDatePatterns,
@@ -507,7 +509,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
 }
 
 const kuDateSymbols = {
-  'NAME': 'ckb',
+  'NAME': 'ku',
   'ERAS': ['پ.ز', 'ز'],
   'ERANAMES': ['پێش زاینی', 'زاینی'],
   'NARROWMONTHS': ['ک.د', 'ش', 'ز', 'ن', 'م', 'ح', 'ت', 'ئ', 'ل', 'ت.ی', 'ت.د', 'ک.ی'],

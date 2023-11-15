@@ -29,7 +29,7 @@ class _KuCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoL
     );
     return SynchronousFuture<CupertinoLocalizations>(
       KuCupertinoLocalizations(
-        localeName: "ku",
+        localeName: 'ku',
         fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
         compactDateFormat: intl.DateFormat('EEE, MMM d', localeName),
