@@ -504,31 +504,31 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   String get scrimOnTapHintRaw => "پانیشانی پوشە لە کرتەکانی تاپ کردن";
-  
+
   @override
   // TODO: implement collapsedHint
   String get collapsedHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement expandedHint
   String get expandedHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement expansionTileCollapsedHint
   String get expansionTileCollapsedHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement expansionTileCollapsedTapHint
   String get expansionTileCollapsedTapHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement expansionTileExpandedHint
   String get expansionTileExpandedHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement expansionTileExpandedTapHint
   String get expansionTileExpandedTapHint => throw UnimplementedError();
-  
+
   @override
   // TODO: implement scanTextButtonLabel
   String get scanTextButtonLabel => throw UnimplementedError();
