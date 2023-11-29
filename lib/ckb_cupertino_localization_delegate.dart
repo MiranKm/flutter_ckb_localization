@@ -366,4 +366,20 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   @override
   String get noSpellCheckReplacementsLabel => "هیچ پارگەیەكی چاکناوی نیشاندەر نیشانناکرێت";
+
+  @override
+  // TODO: implement lookUpButtonLabel
+  String get lookUpButtonLabel => 'بگەڕێ';
+
+  @override
+  // TODO: implement menuDismissLabel
+  String get menuDismissLabel => 'داخستن';
+
+  @override
+  // TODO: implement searchWebButtonLabel
+  String get searchWebButtonLabel => 'گەڕان لە وێب';
+
+  @override
+  // TODO: implement shareButtonLabel
+  String get shareButtonLabel => 'هاوبەشی کردن';
 }

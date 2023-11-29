@@ -507,31 +507,47 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
 
   @override
   // TODO: implement collapsedHint
-  String get collapsedHint => throw UnimplementedError();
+  String get collapsedHint => 'فراوانکردن';
 
   @override
   // TODO: implement expandedHint
-  String get expandedHint => throw UnimplementedError();
+  String get expandedHint => 'نوشتانەوە';
 
   @override
   // TODO: implement expansionTileCollapsedHint
-  String get expansionTileCollapsedHint => throw UnimplementedError();
+  String get expansionTileCollapsedHint => 'فراوانکردن';
 
   @override
   // TODO: implement expansionTileCollapsedTapHint
-  String get expansionTileCollapsedTapHint => throw UnimplementedError();
+  String get expansionTileCollapsedTapHint => 'فراوانکردن';
 
   @override
   // TODO: implement expansionTileExpandedHint
-  String get expansionTileExpandedHint => throw UnimplementedError();
+  String get expansionTileExpandedHint => 'نوشتانەوە';
 
   @override
   // TODO: implement expansionTileExpandedTapHint
-  String get expansionTileExpandedTapHint => throw UnimplementedError();
+  String get expansionTileExpandedTapHint => 'نوشتانەوە';
 
   @override
   // TODO: implement scanTextButtonLabel
-  String get scanTextButtonLabel => throw UnimplementedError();
+  String get scanTextButtonLabel => ' دەقی ڕێکخستنەوە';
+
+  @override
+  // TODO: implement lookUpButtonLabel
+  String get lookUpButtonLabel => 'بەردەوام بە';
+
+  @override
+  // TODO: implement menuDismissLabel
+  String get menuDismissLabel => 'داخستن';
+
+  @override
+  // TODO: implement searchWebButtonLabel
+  String get searchWebButtonLabel => 'گەڕان لە وێب';
+
+  @override
+  // TODO: implement shareButtonLabel
+  String get shareButtonLabel => 'هاوبەشی کردن';
 }
 
 const ckbDateSymbols = {
