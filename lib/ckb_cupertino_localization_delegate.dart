@@ -382,4 +382,8 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
   @override
   // TODO: implement shareButtonLabel
   String get shareButtonLabel => 'هاوبەشی کردن';
+
+  @override
+  // TODO: implement clearButtonLabel
+  String get clearButtonLabel => 'سڕینەوە';
 }
