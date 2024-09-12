@@ -3,33 +3,33 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ckb_localization/ckb_material_localization_delegate.dart';
+import 'package:flutter_ckb_localization/ku_material_localization_delegate.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 
-class _CkbCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
-  const _CkbCupertinoLocalizationsDelegate();
+class _KuCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
+  const _KuCupertinoLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode == 'ckb';
+  bool isSupported(Locale locale) => locale.languageCode == 'ku';
 
   @override
-  bool shouldReload(_CkbCupertinoLocalizationsDelegate old) => false;
+  bool shouldReload(_KuCupertinoLocalizationsDelegate old) => false;
 
   @override
   Future<CupertinoLocalizations> load(Locale locale) {
-    const String localeName = 'ckb';
+    const String localeName = 'ku';
 
     date_symbol_data_custom.initializeDateFormattingCustom(
       locale: localeName,
-      patterns: ckbLocaleDatePatterns,
-      symbols: intl.DateSymbols.deserializeFromMap(ckbDateSymbols),
+      patterns: kuLocaleDatePatterns,
+      symbols: intl.DateSymbols.deserializeFromMap(kuDateSymbols),
     );
     return SynchronousFuture<CupertinoLocalizations>(
-      CkbCupertinoLocalizations(
-        localeName: "ckb",
+      KuCupertinoLocalizations(
+        localeName: "ku",
         fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
         compactDateFormat: intl.DateFormat('EEE, MMM d', localeName),
@@ -60,9 +60,9 @@ class _CkbCupertinoLocalizationsDelegate extends LocalizationsDelegate<Cupertino
   }
 }
 
-class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
-  CkbCupertinoLocalizations({
-    String localeName = 'ckb',
+class KuCupertinoLocalizations extends GlobalCupertinoLocalizations {
+  KuCupertinoLocalizations({
+    String localeName = 'ku',
     required intl.DateFormat fullYearFormat,
     required intl.DateFormat shortDateFormat,
     required intl.DateFormat compactDateFormat,
@@ -73,7 +73,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required intl.NumberFormat decimalFormat,
     required intl.NumberFormat twoDigitZeroPaddedFormat,
   }) : super(
-          localeName: "ckb",
+          localeName: "ku",
           doubleDigitMinuteFormat: intl.DateFormat("#", localeName),
           dayFormat: intl.DateFormat("#", localeName),
           singleDigitHourFormat: intl.DateFormat("#", localeName),
@@ -84,7 +84,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
           decimalFormat: decimalFormat,
         );
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
-      _CkbCupertinoLocalizationsDelegate();
+      _KuCupertinoLocalizationsDelegate();
 
   String get aboutListTileTitleRaw => 'دەربارەی \$applicationName';
 
@@ -373,7 +373,7 @@ class CkbCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   @override
   // TODO: implement menuDismissLabel
-  String get menuDismissLabel => 'داخستن';
+  String get menuDismissLabel => 'داخستنی پێڕست';
 
   @override
   // TODO: implement searchWebButtonLabel

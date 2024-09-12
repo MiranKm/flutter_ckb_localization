@@ -7,23 +7,23 @@ import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 
-class _CkbMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
-  const _CkbMaterialLocalizationsDelegate();
+class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
+  const _KuMaterialLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode == 'ckb';
+  bool isSupported(Locale locale) => locale.languageCode == 'ku';
 
   @override
   Future<MaterialLocalizations> load(Locale locale) async {
-    const String localeName = 'ckb';
+    const String localeName = 'ku';
 
     date_symbol_data_custom.initializeDateFormattingCustom(
       locale: localeName,
-      patterns: ckbLocaleDatePatterns,
-      symbols: intl.DateSymbols.deserializeFromMap(ckbDateSymbols),
+      patterns: kuLocaleDatePatterns,
+      symbols: intl.DateSymbols.deserializeFromMap(kuDateSymbols),
     );
     return SynchronousFuture<MaterialLocalizations>(
-      CkbMaterialLocalizations(
+      KuMaterialLocalizations(
         fullYearFormat: intl.DateFormat('y', localeName),
         shortDateFormat: intl.DateFormat('MM/DD/YY', localeName),
         compactDateFormat: intl.DateFormat('EEE, MMM d', localeName),
@@ -44,12 +44,12 @@ class _CkbMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLo
   }
 
   @override
-  bool shouldReload(_CkbMaterialLocalizationsDelegate old) => false;
+  bool shouldReload(_KuMaterialLocalizationsDelegate old) => false;
 }
 
-class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
-  const CkbMaterialLocalizations({
-    String localeName = 'ckb',
+class KuMaterialLocalizations extends GlobalMaterialLocalizations {
+  const KuMaterialLocalizations({
+    String localeName = 'ku',
     required intl.DateFormat fullYearFormat,
     required intl.DateFormat shortDateFormat,
     required intl.DateFormat compactDateFormat,
@@ -71,7 +71,7 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
             decimalFormat: decimalFormat,
             twoDigitZeroPaddedFormat: twoDigitZeroPaddedFormat);
   static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _CkbMaterialLocalizationsDelegate();
+      _KuMaterialLocalizationsDelegate();
 
   @override
   String get aboutListTileTitleRaw => 'دەربارەی \$applicationName';
@@ -550,8 +550,8 @@ class CkbMaterialLocalizations extends GlobalMaterialLocalizations {
   String get shareButtonLabel => 'هاوبەشی کردن';
 }
 
-const ckbDateSymbols = {
-  'NAME': 'ckb',
+const kuDateSymbols = {
+  'NAME': 'ku',
   'ERAS': ['پ.ز', 'ز'],
   'ERANAMES': ['پێش زاینی', 'زاینی'],
   'NARROWMONTHS': ['ک.د', 'ش', 'ز', 'ن', 'م', 'ح', 'ت', 'ئ', 'ل', 'ت.ی', 'ت.د', 'ک.ی'],
@@ -653,7 +653,7 @@ const ckbDateSymbols = {
   'WEEKENDRANGE': [4, 5],
   'FIRSTWEEKCUTOFFDAY': 3
 };
-const ckbLocaleDatePatterns = {
+const kuLocaleDatePatterns = {
   'd': 'd', // DAY
   'E': 'ccc', // ABBR_WEEKDAY
   'EEEE': 'cccc', // WEEKDAY

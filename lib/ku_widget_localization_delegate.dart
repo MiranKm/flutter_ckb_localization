@@ -5,26 +5,28 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class _CkbMaterialLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
-  const _CkbMaterialLocalizationsDelegate();
+class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
+  const _KuMaterialLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode == 'ckb';
+  bool isSupported(Locale locale) {
+    return locale.languageCode == 'ku';
+  }
 
   @override
   Future<WidgetsLocalizations> load(Locale locale) async {
     return SynchronousFuture<WidgetsLocalizations>(
-      CkbWidgetLocalizations(),
+      KuWidgetLocalizations(),
     );
   }
 
   @override
-  bool shouldReload(_CkbMaterialLocalizationsDelegate old) => false;
+  bool shouldReload(_KuMaterialLocalizationsDelegate old) => false;
 }
 
-class CkbWidgetLocalizations extends WidgetsLocalizations {
+class KuWidgetLocalizations extends WidgetsLocalizations {
   static const LocalizationsDelegate<WidgetsLocalizations> delegate =
-      _CkbMaterialLocalizationsDelegate();
+      _KuMaterialLocalizationsDelegate();
 
   @override
   TextDirection get textDirection => ui.TextDirection.rtl;
